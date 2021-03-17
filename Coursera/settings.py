@@ -192,3 +192,5 @@ if DEBUG:
 else:
     STRIPE_PUBLISHABLE_KEY = 'pk_test_LI02rx6BCdiFgRYQbCaU28o0'
     STRIPE_SECRET_KEY = 'sk_test_FL1E1hwRQeavTXT99MzMCsDc'
+   
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
